@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        body{
+            height: 1000px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        .container{
+            height: 600px;
+            width: 600px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 1fr 2fr 3fr 4fr 5fr 6fr 7fr;
+            grid-template-rows: repeat(1, 1fr);
+        }
+        .box-1{
+            background-color: blueviolet;
+        }
+        .box-2{
+            background-color: blue;
+        }
+        .box-3{
+            background-color: cornflowerblue;
+        }
+        .box-4{
+            background-color: blueviolet;
+        }
+        .box-5{
+            background-color: blue;
+        }
+        .box-6{
+            background-color: cornflowerblue;
+        }
+        .box-7{
+            background-color: blueviolet;
+        }
+        .box-8{
+            background-color: blue;
+        }
+        .box-9{
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+        <div class="box-5"></div>
+        <div class="box-6"></div>
+        <div class="box-7"></div>
+        <div class="box-8"></div>
+        <div class="box-9"></div>
+    </div>
+</body>
+</html>
